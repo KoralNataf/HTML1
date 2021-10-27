@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #ffffcc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    border: solid;
+    border-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>index.html</title> 
+       <link rel="stylesheet" href="./style.css"> 
+    </head>
+    <body>
+        <h1>The 5 most beautiful sites I have visited</h1>
+        <hr/>
+        <ul class="ListOfSeites">
+            <li><a href="./jerusalem.html">The Western Wall, Jerusalem</a></li>
+            <li><a href="./hermon.html">Hermon mountain</a></li>
+            <li><a href="./seaOfGalilee.html">Sea of Galilee</a></li>
+            <li><a href="./deadSea.html">Dead Sea</a></li>
+            <li><a href="./eilat.html">Eilat</a></li>
+        </ul>
+        <hr/>
+        <img usemap="#mymap" src="./Map.jpg" height="700" width="544"/>
+        <map name="mymap">
+            <area shape="poly" coords="342,10,382,10,361,53" href="./hermon.html"/>
+            <area shape="poly" coords="320,82,370,82,345,126" href="./seaOfGalilee.html"/>
+            <area shape="poly" coords="282,250,326,250,303,300" href="./jerusalem.html"/>
+            <area shape="poly" coords="321,272,370,272,342,318" href="./deadSea.html"/>
+            <area shape="poly" coords="240,612,293,612,265,659" href="./eilat.html"/>
+        </map>
+
+    </body>
+</html>
